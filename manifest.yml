@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IoT-ypk-dc
+  host: IoT-ypk-dc
+  disk_quota: 1024M
+  services:
+  - IoT-ypk-dc-cloudantNoSQLDB
+  - IoT-ypk-dc-iotf-service
